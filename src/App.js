@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { useState, useRef } from 'react'
+import { useRef } from 'react'
 import Drums from './components/Drums';
 
 function App() {
@@ -8,15 +7,14 @@ function App() {
   const firstRef = useRef();
 
   function handleChange() {
-      firstRef.current.innerText="Hello, Dumebi"
-      console.log("Bitch, work!")
+      firstRef.current.innerText="Dumebi is, like, the coolest dev that I know because wtf!!!!!!!"
   }
 
   return (
     <div className="App">
       <h1 ref={firstRef}
       onClick={handleChange}>
-        Hello world!
+        Click ME!
       </h1>
       <Drums />
     </div>
