@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState, useRef } from 'react'
+import Drums from './components/Drums';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       onClick={handleChange}>
         Hello world!
       </h1>
+      <Drums />
     </div>
   );
 }
