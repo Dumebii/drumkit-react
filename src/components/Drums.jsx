@@ -21,8 +21,6 @@ export default function Drums() {
   const [play7] = useSound(soundSeven)
 
 
-const refList = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh']
-
 const firstRef = useRef()
 const secondRef = useRef()
 const thirdRef = useRef()
