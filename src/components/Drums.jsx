@@ -88,13 +88,9 @@ const seventhRef = useRef()
     function sixth() {play6(); buttonAnimation6()}
     function seventh() {play7(); buttonAnimation7()}
 
-    useEffect(() => {first()}, [play1])
-    useEffect(() => {second()}, [second])
-    useEffect(() => {third()}, [ play2])
-    useEffect(() => {fourth()}, [ play2])
-    useEffect(() => {fifth()}, [ play2])
-    useEffect(() => {sixth()}, [ play2])
-    useEffect(() => {seventh()}, [ play2])
+    useEffect(() =>{
+        first(); second(); third(); fourth(); fifth(); sixth(); seventh()
+    }, [play1, play2, play3, play4, play5, play6, play7])
 
     
 

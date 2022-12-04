@@ -22,7 +22,7 @@ button {
   color: wheat;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
-  /* display: inline-block; */
+  cursor: pointer;
   width: 150px;
   height: 150px;
   text-align: center;
